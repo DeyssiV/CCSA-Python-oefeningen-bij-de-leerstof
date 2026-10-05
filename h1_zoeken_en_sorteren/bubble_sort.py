@@ -1,6 +1,6 @@
 def bubble_sort(a):
-    counter = 1
-    for i in range(0, len(a) - 2, 1):
+    counter = 0
+    for i in range(0, len(a) - 1, 1):
         for j in range (len(a)-1, i, -1):
             counter = counter+1
             if a[j-1] > a[j]:
